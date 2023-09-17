@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 768 1024">
+  <defs>
+    <style>
+      text {
+      shape-rendering: crispEdges;
+      }
+
+      .uuid-7bea95b4-5d9c-40f6-8d2d-3658756546bb, .uuid-1afaddaf-970a-4c66-b649-447b8b109305 {
+      fill: #212121;
+      font-family: 'Sarasa Fixed SC', 'Sarasa Fixed TC', 'Sarasa Fixed HC','Sarasa Fixed J', 'Sarasa
+      Fixed K','Sarasa Fixed CL', Sarasa-Fixed-SC-Regular;
+      }
+
+      .uuid-7bea95b4-5d9c-40f6-8d2d-3658756546bb, .uuid-c0f37c5b-dcd5-4481-8e58-7312f509b69a {
+      font-size: 32px;
+      }
+
+      .uuid-1afaddaf-970a-4c66-b649-447b8b109305 {
+      font-size: 24px;
+      }
+
+      .uuid-619971cf-f475-4cc4-8d9a-36a6e8993c27 {
+      letter-spacing: 0em;
+      }
+
+      .uuid-006ea60e-c5c6-46ef-8855-503d099a003f {
+      letter-spacing: -.02em;
+      }
+
+      .uuid-70fbec8a-52fb-4d8f-b921-490cbccd87e0 {
+      fill: none;
+      stroke: #bdbdbd;
+      }
+
+      .uuid-70fbec8a-52fb-4d8f-b921-490cbccd87e0, .uuid-7367c0f7-c7f8-4e78-919b-b8cff27fb5b0,
+      .uuid-ed64800d-363a-4f0c-8880-81b2fdfb5ce2 {
+      stroke-miterlimit: 10;
+      }
+
+      .uuid-7367c0f7-c7f8-4e78-919b-b8cff27fb5b0 {
+      fill: #fff;
+      font-family: 'Noto Sans', NotoSans-Medium;
+      font-size: 54px;
+      font-weight: 500;
+      }
+
+      .uuid-7367c0f7-c7f8-4e78-919b-b8cff27fb5b0, .uuid-ed64800d-363a-4f0c-8880-81b2fdfb5ce2 {
+      stroke: #fff;
+      stroke-width: .25px;
+      }
+
+      .uuid-1bc3eb6f-438a-4294-aba8-24a7c767df3f {
+      fill: #607d8b;
+      filter: url(#uuid-76aaaf60-e9d1-4d73-a6f1-3839b8eba640);
+      }
+
+      .uuid-718b536d-994c-4087-b38d-b66634cc9bb4 {
+      fill: #757575;
+      font-family: 'Noto Sans', NotoSans-Light;
+      font-size: 18px;
+      font-weight: 300;
+      }
+
+      .uuid-c0f37c5b-dcd5-4481-8e58-7312f509b69a {
+      fill: #cfd8dc;
+      font-family: 'Noto Sans', NotoSans-Regular;
+      }
+
+      .uuid-ed64800d-363a-4f0c-8880-81b2fdfb5ce2 {
+      fill: #fafafa;
+      }
+    </style>
+    <filter id="uuid-76aaaf60-e9d1-4d73-a6f1-3839b8eba640" data-name="drop-shadow-1"
+      filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="2" />
+      <feGaussianBlur result="uuid-73d02859-5eb9-464c-9942-41590d3db748" stdDeviation="15" />
+      <feFlood flood-color="#000" flood-opacity=".45" />
+      <feComposite in2="uuid-73d02859-5eb9-464c-9942-41590d3db748" operator="in" />
+      <feComposite in="SourceGraphic" />
+    </filter>
+  </defs>
+  <g id="uuid-a3f731f8-1cc1-4ca0-81a7-102f756688fc" data-name="background">
+    <rect class="uuid-ed64800d-363a-4f0c-8880-81b2fdfb5ce2" y="324" width="768" height="700" />
+    <rect class="uuid-1bc3eb6f-438a-4294-aba8-24a7c767df3f" width="768" height="324" />
+  </g>
+  <g id="uuid-8936df60-1774-43ed-884a-a3904199d4cf" data-name="title">
+    <text class="uuid-7367c0f7-c7f8-4e78-919b-b8cff27fb5b0" transform="translate(144 171)">
+      <tspan x="0" y="0">CustomSkinLoader</tspan>
+    </text>
+    <text class="uuid-c0f37c5b-dcd5-4481-8e58-7312f509b69a" transform="translate(144 225)">
+      <tspan x="0" y="0">log file analyze toolkit</tspan>
+    </text>
+  </g>
+  <g id="uuid-e1dc7c50-8a16-4369-95e7-3771ccf5cfd2" data-name="main player info">
+    <line class="uuid-70fbec8a-52fb-4d8f-b921-490cbccd87e0" x1=".5" y1="504.5" x2="768.5" y2="504.5" />
+    <text class="uuid-7bea95b4-5d9c-40f6-8d2d-3658756546bb" transform="translate(72 414)">
+      <tspan x="0" y="0">{{ player_name }}</tspan>
+    </text>
+    <text class="uuid-718b536d-994c-4087-b38d-b66634cc9bb4" transform="translate(72 450)">
+      <tspan x="0" y="0">Main Player Name</tspan>
+    </text>
+    <text class="uuid-7bea95b4-5d9c-40f6-8d2d-3658756546bb" transform="translate(696 413.67)"
+      text-anchor="end">
+      <tspan x="0" y="0">{{ skin_server }}</tspan>
+    </text>
+    <text class="uuid-718b536d-994c-4087-b38d-b66634cc9bb4" transform="translate(696 450.34)"
+      text-anchor="end">
+      <tspan x="0" y="0">Hitted Server</tspan>
+    </text>
+  </g>
+  <g id="uuid-9248e5ec-f6db-4bb1-a57f-605e460d3a5d" data-name="runtime info">
+    <line class="uuid-70fbec8a-52fb-4d8f-b921-490cbccd87e0" y1="675.5" x2="768" y2="675.5" />
+    <text class="uuid-7bea95b4-5d9c-40f6-8d2d-3658756546bb" transform="translate(72 585)">
+      <tspan x="0" y="0">{{ ver_mc }}</tspan>
+    </text>
+    <text class="uuid-718b536d-994c-4087-b38d-b66634cc9bb4" transform="translate(72 621)">
+      <tspan x="0" y="0">Minecraft Version</tspan>
+    </text>
+    <text class="uuid-7bea95b4-5d9c-40f6-8d2d-3658756546bb" transform="translate(384 585.19)"
+      text-anchor="middle">
+      <tspan x="0" y="0">{{ ver_java }}</tspan>
+    </text>
+    <text class="uuid-718b536d-994c-4087-b38d-b66634cc9bb4" transform="translate(384 621.19)"
+      text-anchor="middle">
+      <tspan x="0" y="0">Java Version</tspan>
+    </text>
+    <text class="uuid-7bea95b4-5d9c-40f6-8d2d-3658756546bb" transform="translate(696 584.67)"
+      text-anchor="end">
+      <tspan x="0" y="0">{{ ver_csl }}</tspan>
+    </text>
+    <text class="uuid-718b536d-994c-4087-b38d-b66634cc9bb4" transform="translate(696 621.34)"
+      text-anchor="end">
+      <tspan x="0" y="0">CSL Version</tspan>
+    </text>
+  </g>
+  <g id="uuid-3b73721f-59fe-45d9-9aeb-0bbe283063cf" data-name="exceptions info">
+    <text class="uuid-718b536d-994c-4087-b38d-b66634cc9bb4" transform="translate(72 738.66)">
+      <tspan x="0" y="0">Exceptions Occurred</tspan>
+    </text>
+    <text class="uuid-1afaddaf-970a-4c66-b649-447b8b109305" transform="translate(72 792.52)"> 
+      {% for e in exceptions %} 
+      <tspan x="0" y="{{ loop.index0 * 42 }}">{{ e }}</tspan> 
+      {% endfor %} 
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+version: "3"
+services:
+  api:
+    build: .
+    image: registry.cn-shanghai.aliyuncs.com/xiaojin233/mihari-svg:latest
+    ports:
+      - "57681:57681"
+    restart: always
+    volumes:
+      - .:/app

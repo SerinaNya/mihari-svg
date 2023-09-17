@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "mihari-svg"
+version = "0.0.1"
+description = "Convert SVG file to other image formats."
+authors = ["jinzhijie <34389622+jinzhijie@users.noreply.github.com>"]
+readme = "README.md"
+repository = "https://github.com/jinzhijie/mihari-svg"
+packages = [{include = "mihari_svg"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.100.0"
+httpx = "^0.24.1"
+uvicorn = {extras = ["standard"], version = "^0.23.1"}
+cairosvg = "^2.7.0"
+python-multipart = "^0.0.6"
+ulid-py = "^1.1.0"
+jinja2 = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
