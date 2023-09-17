@@ -5,7 +5,7 @@ description = "Convert SVG file to other image formats."
 authors = ["jinzhijie <34389622+jinzhijie@users.noreply.github.com>"]
 readme = "README.md"
 repository = "https://github.com/jinzhijie/mihari-svg"
-packages = [{include = "mihari_svg"}]
+# packages = [{include = "mihari_svg"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
